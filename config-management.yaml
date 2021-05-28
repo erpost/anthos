@@ -4,11 +4,10 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  enableMultiRepo: true
   enableLegacyFields: true
   sourceFormat: unstructured
   git:
-    syncRepo: git@github.com:erpost/csp-config-management.git
-    syncBranch: 1.0.0
+    syncRepo: https://github.com/erpost/anthos.git
+    syncBranch: master
     secretType: none
-    policyDir: "hello-namespace/config-root"
+    policyDir: "."
