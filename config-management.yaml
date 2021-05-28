@@ -4,10 +4,9 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  enableLegacyFields: true
   sourceFormat: unstructured
   git:
     syncRepo: https://github.com/erpost/anthos.git
     syncBranch: master
     secretType: none
-    policyDir: "."
+    policyDir: "config-root"
