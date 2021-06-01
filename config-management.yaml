@@ -4,7 +4,7 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  sourceFormat: unstructured
+  sourceFormat: hierarchy
   git:
     syncRepo: https://github.com/erpost/anthos.git
     syncBranch: master
